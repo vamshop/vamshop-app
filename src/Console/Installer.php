@@ -33,7 +33,6 @@ class Installer
      * An array of directories to be made writable
      */
     const WRITABLE_DIRS = [
-        'config',
         'logs',
         'tmp',
         'tmp/cache',
@@ -169,6 +168,9 @@ class Installer
         $walker($dir . '/tmp', $worldWritable, $io);
         $changePerms($dir . '/tmp', $worldWritable, $io);
         $changePerms($dir . '/logs', $worldWritable, $io);
+        $changePerms($dir . '/config', $worldWritable, $io);
+        $changePerms($dir . '/config/app.default.php', $worldWritable, $io);
+        $changePerms($dir . '/config/app.php', $worldWritable, $io);
     }
 
     /**
