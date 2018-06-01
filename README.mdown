@@ -1,4 +1,4 @@
-# Croogo
+# VamShop App
 
 **Croogo** is a free, open source, content management system for PHP, released under [MIT License](http://github.com/croogo/croogo/blob/master/LICENSE.txt).
 
