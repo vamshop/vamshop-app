@@ -1,7 +1,7 @@
 {
-    "name": "croogo/app",
-    "description": "Croogo skeleton app",
-    "homepage": "https://github.com/croogo/app",
+    "name": "vamshop/vamshop-app",
+    "description": "VamShop Skeleton App",
+    "homepage": "https://github.com/vamshop/vamshop-app",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -26,7 +26,7 @@
         "cakephp/cakephp": "3.5.*",
         "cakephp/migrations": "^1.0",
         "cakephp/plugin-installer": "^1.0",
-        "croogo/croogo": "^3.0.5",
+        "vamshop/vamshop-core": "^3.0.5",
         "josegonzalez/dotenv": "3.*",
         "mobiledetect/mobiledetectlib": "2.*"
     },
