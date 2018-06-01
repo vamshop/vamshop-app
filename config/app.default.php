@@ -55,7 +55,7 @@ return [
             'templates' => [APP . 'Template' . DS],
             'locales' => [
                 APP . 'Locale' . DS,
-                ROOT . DS . 'vendor' . DS . 'croogo' . DS . 'locale' . DS,
+                ROOT . DS . 'vendor' . DS . 'vamshop' . DS . 'locale' . DS,
             ],
         ],
     ],
