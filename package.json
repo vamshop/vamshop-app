@@ -1,9 +1,9 @@
 {
-	"title": "Croogo App",
-	"name": "croogo-app",
+	"title": "VamShop App",
+	"name": "vamshop-app",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/croogo/app.git"
+		"url": "git://github.com/vamshop/vamshop-app.git"
 	},
 	"dependencies": {
 		"bower": "1.2.x",
