@@ -27,6 +27,7 @@
         "cakephp/migrations": "^1.0",
         "cakephp/plugin-installer": "^1.0",
         "vamshop/vamshop-core": "^3.0",
+        "vamshop/locale": "^3.0",
         "josegonzalez/dotenv": "3.*",
         "mobiledetect/mobiledetectlib": "2.*"
     },
