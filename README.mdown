@@ -45,11 +45,11 @@ If you want hack on vamshop, you can use the `--prefer-source` flag, ie:
 
 ## Links
 
-  * **Official website**: [http://vamshop.org](http://vamshop.org)
-  * **Blog**: [http://blog.vamshop.org](http://blog.vamshop.org)
-  * **Downloads**: [http://downloads.vamshop.org](http://downloads.vamshop.org)
+  * **Official website**: [http://vamshop.com](http://vamshop.com)
+  * **Blog**: [http://blog.vamshop.com](http://blog.vamshop.com)
+  * **Downloads**: [http://downloads.vamshop.com](http://downloads.vamshop.com)
   * **Issue Tracker**: [http://github.com/vamshop/vamshop/issues](http://github.com/vamshop/vamshop/issues)
-  * **Documentation**: [http://docs.vamshop.org](http://docs.vamshop.org)
+  * **Documentation**: [http://docs.vamshop.com](http://docs.vamshop.com)
   * **Google Group**: [http://groups.google.com/group/vamshop](http://groups.google.com/group/vamshop)
   * **IRC Channel**: [#vamshop](irc://irc.freenode.net/vamshop) on irc.freenode.net
 
