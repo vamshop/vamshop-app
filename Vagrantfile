@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   #
   config.vm.box      = "precise64"
   config.vm.box_url  = "http://files.vagrantup.com/precise64.box"
-  config.vm.hostname = "croogo"
+  config.vm.hostname = "vamshop"
 
   ##
   # Memory
@@ -78,7 +78,7 @@ Vagrant.configure("2") do |config|
   ##
   # Create database (move this to cookbook level)
   #
-  config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists croogo'"
-  config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists croogo_test'"
+  config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists vamshop'"
+  config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists vamshop_test'"
 
 end
