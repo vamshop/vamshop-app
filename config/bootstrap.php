@@ -206,7 +206,7 @@ Type::build('timestamp')
  *
  */
 Plugin::load('Acl', ['bootstrap' => true]);
-Plugin::load('Croogo/Core', ['bootstrap' => true, 'routes' => true]);
+Plugin::load('Vamshop/Core', ['bootstrap' => true, 'routes' => true]);
 
 /*
  * Only try to load DebugKit in development mode

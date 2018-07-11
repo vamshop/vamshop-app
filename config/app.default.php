@@ -155,7 +155,7 @@ return [
      */
     'Error' => [
         'errorLevel' => E_ALL,
-        'exceptionRenderer' => 'Croogo\Core\Error\ExceptionRenderer',
+        'exceptionRenderer' => 'Vamshop\Core\Error\ExceptionRenderer',
         'skipLog' => [],
         'log' => true,
         'trace' => true,
