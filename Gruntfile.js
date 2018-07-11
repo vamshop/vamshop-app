@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 	];
 
 	/**
-	 * VamShop plugins config
+	 * Vamshop plugins config
 	 */
 	var pluginPaths = grunt.file.readJSON('tmp/plugin_paths.json');
 	for (var plugin in pluginPaths) {

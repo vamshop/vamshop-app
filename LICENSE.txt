@@ -1,7 +1,7 @@
 The MIT License
 
-VamShop: A CakePHP powered Content Management System (http://vamshop.com)
-Copyright 2018, VamShop Ltd. <http://support.vamshop.com> and other contributors
+Vamshop: A CakePHP powered Content Management System (http://vamshop.com)
+Copyright 2018, Vamshop Ltd. <http://support.vamshop.com> and other contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
