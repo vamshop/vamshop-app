@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 				stdout: true
 			},
 			cachePluginPaths: {
-				command: './Console/cake croogo cachePluginPaths'
+				command: './Console/cake vamshop cachePluginPaths'
 			}
 		}
 	};
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 	];
 
 	/**
-	 * Croogo plugins config
+	 * VamShop plugins config
 	 */
 	var pluginPaths = grunt.file.readJSON('tmp/plugin_paths.json');
 	for (var plugin in pluginPaths) {

@@ -1,8 +1,8 @@
 {
-	"title": "Croogo App",
-	"name": "croogo-app",
+	"title": "VamShop App",
+	"name": "vamshop-app",
 	"devDependencies": {
-		"bootstrap": "2.3.x",
+		"bootstrap": "4.0.x",
 		"font-awesome": "3.2.x"
 	}
 }

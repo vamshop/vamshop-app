@@ -1,12 +1,12 @@
 # VamShop App
 
-**Croogo** is a free, open source, content management system for PHP, released under [MIT License](http://github.com/croogo/croogo/blob/master/LICENSE.txt).
+**VamShop** is a free, open source, content management system for PHP, released under [MIT License](http://github.com/vamshop/vamshop-app/blob/master/LICENSE.txt).
 
 It is powered by [CakePHP](http://cakephp.org) MVC framework.
 
-[![Build Status](https://travis-ci.org/croogo/croogo.svg?branch=master)](https://travis-ci.org/croogo/croogo)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/croogo/croogo/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/croogo/croogo/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/croogo/croogo/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/croogo/croogo/?branch=master)
+[![Build Status](https://travis-ci.org/vamshop/vamshop.svg?branch=master)](https://travis-ci.org/vamshop/vamshop)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vamshop/vamshop/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vamshop/vamshop/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/vamshop/vamshop/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/vamshop/vamshop/?branch=master)
 
 ## Requirements
   * Apache with `mod_rewrite`
@@ -17,15 +17,15 @@ It is powered by [CakePHP](http://cakephp.org) MVC framework.
 
 #### Installation using composer
 
-The preferred way to install Croogo is by using [composer](http://getcomposer.org).
+The preferred way to install VamShop is by using [composer](http://getcomposer.org).
 
     composer create-project vamshop/vamshop-app ./
     
-    bin/cake Croogo/Install.install
+    bin/cake Vamshop/Install.install
 
 !!!! Empty MySQL database must be created before installation.
 
-If you want hack on croogo, you can use the `--prefer-source` flag, ie:
+If you want hack on vamshop, you can use the `--prefer-source` flag, ie:
 
     `composer create-project --prefer-source vamshop/vamshop-app myapp`
 
@@ -45,12 +45,12 @@ If you want hack on croogo, you can use the `--prefer-source` flag, ie:
 
 ## Links
 
-  * **Official website**: [http://croogo.org](http://croogo.org)
-  * **Blog**: [http://blog.croogo.org](http://blog.croogo.org)
-  * **Downloads**: [http://downloads.croogo.org](http://downloads.croogo.org)
-  * **Issue Tracker**: [http://github.com/croogo/croogo/issues](http://github.com/croogo/croogo/issues)
-  * **Documentation**: [http://docs.croogo.org](http://docs.croogo.org)
-  * **Google Group**: [http://groups.google.com/group/croogo](http://groups.google.com/group/croogo)
-  * **IRC Channel**: [#croogo](irc://irc.freenode.net/croogo) on irc.freenode.net
+  * **Official website**: [http://vamshop.org](http://vamshop.org)
+  * **Blog**: [http://blog.vamshop.org](http://blog.vamshop.org)
+  * **Downloads**: [http://downloads.vamshop.org](http://downloads.vamshop.org)
+  * **Issue Tracker**: [http://github.com/vamshop/vamshop/issues](http://github.com/vamshop/vamshop/issues)
+  * **Documentation**: [http://docs.vamshop.org](http://docs.vamshop.org)
+  * **Google Group**: [http://groups.google.com/group/vamshop](http://groups.google.com/group/vamshop)
+  * **IRC Channel**: [#vamshop](irc://irc.freenode.net/vamshop) on irc.freenode.net
 
-  * **Gitter**: [![Join the chat at https://gitter.im/croogo/croogo](https://badges.gitter.im/croogo/croogo.svg)](https://gitter.im/croogo/croogo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+  * **Gitter**: [![Join the chat at https://gitter.im/vamshop/vamshop](https://badges.gitter.im/vamshop/vamshop.svg)](https://gitter.im/vamshop/vamshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
