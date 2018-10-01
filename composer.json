@@ -26,18 +26,11 @@
         "cakephp/cakephp": "3.5.*",
         "cakephp/migrations": "^1.0",
         "cakephp/plugin-installer": "^1.0",
-        "josegonzalez/dotenv": "3.*",
-        "mobiledetect/mobiledetectlib": "2.*",
-        "vamshop/analytics": "^3.0",
-        "vamshop/assets": "^3.0",
-        "vamshop/ckeditor": "^3.0",
-        "vamshop/featuredimage": "^3.0",
+        "sinergi/browser-detector": "^6.1",
+        "vamshop/vamshop-core": "^3.0",
         "vamshop/locale": "^3.0",
-        "vamshop/materializecss": "^3.0",
-        "vamshop/seo": "^3.0",
-        "vamshop/surveys": "^3.0",
-        "vamshop/tinymce": "^3.0",
-        "vamshop/vamshop-core": "^3.0"
+        "josegonzalez/dotenv": "3.*",
+        "mobiledetect/mobiledetectlib": "2.*"
     },
     "require-dev": {
         "cakephp/bake": "^1.1",
