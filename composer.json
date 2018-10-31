@@ -56,10 +56,12 @@
     },
     "scripts": {
         "post-install-cmd": [
-	    "App\\Console\\Installer::postInstall"
+	    "App\\Console\\Installer::postInstall",
+            "yarn install --modules-folder webroot"
 	],
         "post-create-project-cmd": [
-	    "App\\Console\\Installer::postInstall"
+	    "App\\Console\\Installer::postInstall",
+            "yarn install --modules-folder webroot"
 	],
         "post-autoload-dump": [
             "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
