@@ -1,8 +1,0 @@
-{
-	"title": "Vamshop App",
-	"name": "vamshop-app",
-	"devDependencies": {
-		"bootstrap": "4.0.x",
-		"font-awesome": "3.2.x"
-	}
-}
