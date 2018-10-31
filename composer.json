@@ -56,17 +56,14 @@
     },
     "scripts": {
         "post-install-cmd": [
-	    "App\\Console\\Installer::postInstall",
-	    "yarn install --modules-folder webroot/node_modules"
+	    "App\\Console\\Installer::postInstall"
 	],
         "post-create-project-cmd": [
-	    "App\\Console\\Installer::postInstall",
-	    "yarn install --modules-folder webroot/node_modules"
+	    "App\\Console\\Installer::postInstall"
 	],
         "post-autoload-dump": [
             "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
-            "Vamshop\\Install\\ComposerInstaller::postAutoloadDump",
-            "yarn install --modules-folder webroot/node_modules"
+            "Vamshop\\Install\\ComposerInstaller::postAutoloadDump"
         ],
         "check": [
             "@test",
