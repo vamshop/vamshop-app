@@ -206,6 +206,7 @@ Type::build('timestamp')
  *
  */
 Plugin::load('Acl', ['bootstrap' => true]);
+Plugin::load('ADmad/JwtAuth');
 Plugin::load('Vamshop/Core', ['bootstrap' => true, 'routes' => true]);
 
 /*
