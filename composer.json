@@ -31,6 +31,8 @@
         "sinergi/browser-detector": "^6.1",
         "vamshop/vamshop-core": "^3.0",
         "vamshop/locale": "^3.0",
+        "vamshop/assets": "^3.0",
+        "vamshop/seo": "^3.0",
         "josegonzalez/dotenv": "3.*",
         "mobiledetect/mobiledetectlib": "2.*"
     },
