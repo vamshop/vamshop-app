@@ -3,9 +3,9 @@ Vagrant.configure("2") do |config|
   ##
   # Box
   #
-  config.vm.box      = "precise64"
-  config.vm.box_url  = "http://files.vagrantup.com/precise64.box"
-  config.vm.hostname = "vamshop"
+  config.vm.box      = "hashicorp/precise64"
+  #config.vm.box_url  = "http://files.vagrantup.com/precise64.box"
+  #config.vm.hostname = "vamshop"
 
   ##
   # Memory
@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
   ##
   # Shared directories
   #
-  config.vm.synced_folder Dir.pwd, "/vagrant", :nfs => true
+  config.vm.synced_folder Dir.pwd, "/vagrant", :nfs => false
 
   ##
   # Upgrade Chef

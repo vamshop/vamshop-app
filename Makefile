@@ -3,11 +3,11 @@ composer:
 	php composer.phar install
 
 npm:
-	./Console/cake croogo aggregateManifestFile package.json
+	./Console/cake vamshop aggregateManifestFile package.json
 	sudo npm install
 
 bower:
-	./Console/cake croogo aggregateManifestFile bower.json
+	./Console/cake vamshop aggregateManifestFile bower.json
 	sudo ./node_modules/.bin/bower install --allow-root
 
 build:
@@ -21,7 +21,7 @@ update:
 
 nginx:
 	sudo cp /vagrant/etc/development/nginx/nginx.conf /etc/nginx/nginx.conf
-	sudo cp /vagrant/etc/development/nginx/sites-enabled/croogo /etc/nginx/sites-enabled/croogo
+	sudo cp /vagrant/etc/development/nginx/sites-enabled/vamshop /etc/nginx/sites-enabled/vamshop
 	sudo service nginx restart
 
 php:
