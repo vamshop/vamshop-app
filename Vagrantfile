@@ -27,18 +27,24 @@ Vagrant.configure("2") do |config|
   ##
   # Upgrade Chef
   #
-  config.vm.provision :shell, :inline => "gem install chef --version 11.6 --no-rdoc --no-ri --conservative"
+  #config.vm.provision :shell, :inline => "gem install chef --version 11.10.4 --no-rdoc --no-ri --conservative"
+  #config.vm.provision :shell, :inline => "gem install mixlib-shellout -v 2.2.7"
+  #config.vm.provision :shell, :inline => "gem install mixlib-cli -v 1.3.0 --no-ri --no-rdoc"
+  #config.vm.provision :shell, :inline => "gem install net-ssh -v 3.0.1 --no-ri --no-rdoc"
+  #config.vm.provision :shell, :inline => "gem install net-ssh-gateway -v 1.2.0 --no-ri --no-rdoc"
+  #config.vm.provision :shell, :inline => "gem install chef --no-ri --no-rdoc"
 
   ##
   # Chef
   #
+  
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["cookbooks"]
     chef.add_recipe :apt
     chef.add_recipe "build-essential"
     chef.add_recipe "curl"
     chef.add_recipe "git"
-    chef.add_recipe "mysql::server"
+    #chef.add_recipe "mysql"
     chef.add_recipe "nginx"
     chef.add_recipe "nodejs"
     chef.add_recipe "php"
@@ -50,12 +56,11 @@ Vagrant.configure("2") do |config|
       :git => {
         :prefix => "/usr/local"
       },
-      :mysql => {
-        :server_root_password   => 'password',
-        :server_repl_password   => 'password',
-        :server_debian_password => 'password',
-        :allow_remote_root      => true
-      },
+      #"mysql" => {
+        #"server_root_password" => 'password',
+        #"log_dir" => '/var/log/mysql',
+        #"data_dir" => '/var/lib/mysql'
+      #},
       :nginx => {
         :dir                => "/etc/nginx",
         :log_dir            => "/var/log/nginx",
@@ -78,7 +83,7 @@ Vagrant.configure("2") do |config|
   ##
   # Create database (move this to cookbook level)
   #
-  config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists vamshop'"
-  config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists vamshop_test'"
+  #config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists vamshop'"
+  #config.vm.provision :shell, :inline => "mysql -uroot -ppassword -e 'create database if not exists vamshop_test'"
 
 end
