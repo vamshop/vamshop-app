@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
     config.vm.box = "scotch/box"
     config.vm.network "private_network", ip: "16.17.18.19"
     config.vm.hostname = "vamshop"
-    config.vm.synced_folder ".", "/var/www/public", :mount_options => ["dmode=777", "fmode=666"]
+    config.vm.synced_folder ".", "/var/www/public", :mount_options => ["dmode=777", "fmode=777"]
 
     # Optional NFS. Make sure to remove other synced_folder line too
     #config.vm.synced_folder ".", "/var/www", :nfs => { :mount_options => ["dmode=777","fmode=666"] }
