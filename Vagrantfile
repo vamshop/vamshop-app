@@ -16,6 +16,6 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder ".", "/var/www/public", :mount_options => ["dmode=777", "fmode=766"]
 
     # Optional NFS. Make sure to remove other synced_folder line too
-    #config.vm.synced_folder ".", "/var/www/public", :nfs => { :mount_options => ["dmode=777","fmode=666"] }
+    #config.vm.synced_folder ".", "/var/www/public", :nfs => { :mount_options => ["dmode=777","fmode=766"] }
 
 end
