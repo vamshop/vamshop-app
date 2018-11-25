@@ -34,9 +34,9 @@ class PagesControllerTest extends IntegrationTestCase
      */
     public function testMultipleGet()
     {
-        $this->get('/');
+        $this->get('/pages/home');
         $this->assertResponseOk();
-        $this->get('/');
+        $this->get('/pages/home');
         $this->assertResponseOk();
     }
 
@@ -74,13 +74,11 @@ class PagesControllerTest extends IntegrationTestCase
      */
     public function testMissingTemplateInDebug()
     {
-        //Configure::write('debug', true);
-        //$this->get('/pages/not_existing');
+        Configure::write('debug', false);
+        $this->get('/pages/not_existing');
 
-        //$this->assertResponseFailure();
-        //$this->assertResponseContains('Missing Template');
-        //$this->assertResponseContains('Stacktrace');
-        //$this->assertResponseContains('not_existing.ctp');
+        $this->assertResponseError();
+        $this->assertResponseContains('not_existing');
     }
 
     /**
@@ -90,6 +88,7 @@ class PagesControllerTest extends IntegrationTestCase
      */
     public function testDirectoryTraversalProtection()
     {
+        Configure::write('debug', false);
         $this->get('/pages/../Layout/ajax');
         $this->assertResponseCode(403);
         $this->assertResponseContains('Forbidden');
