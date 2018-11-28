@@ -28,7 +28,6 @@
         "cakephp/cakephp": "3.5.*",
         "cakephp/migrations": "^1.0",
         "cakephp/plugin-installer": "^1.0",
-        "sinergi/browser-detector": "^6.1",
         "vamshop/vamshop-core": "^3.0",
         "vamshop/locale": "^3.0",
         "vamshop/assets": "^3.0",
